@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tigaon Hospital HCI Evaluation — Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <button class="hamburger" onclick="toggleSidebar()">☰</button>
+  <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+
+  <!-- ─── SIDEBAR ─── -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-brand">
+      <div class="sidebar-brand-title">HCI2 Final<br />Report</div>
+      <div class="sidebar-brand-sub">Group 6 · 2025</div>
+    </div>
+
+    <div class="sidebar-section-label">Navigation</div>
+    <ul class="sidebar-nav">
+      <li><a href="index.html" class="active"><span class="nav-icon">⌂</span> Home</a></li>
+      <li><a href="data-gathering.html"><span class="nav-icon">◈</span> Data Gathering</a></li>
+      <li><a href="results.html"><span class="nav-icon">◉</span> Results &amp; Discussion</a></li>
+      <li><a href="reflections.html"><span class="nav-icon">◇</span> Reflections</a></li>
+    </ul>
+
+    <hr class="sidebar-divider" />
+
+    <div class="sidebar-footer">
+      <strong>Partido State University</strong>
+      College of Engineering &amp; Computational Sciences<br />
+      Computational Sciences Dept.
+    </div>
+  </aside>
+
+  <!-- ─── MAIN ─── -->
+  <main class="main">
+
+    <!-- PAGE HEADER -->
+    <header class="page-header">
+      <div class="page-label anim anim-1">HCI2 · Usability Evaluation Report · Group 6</div>
+      <h1 class="page-title anim anim-2">
+        Tigaon – <span>Primary Hospital</span><br />and Clinic Website
+      </h1>
+      <p class="page-subtitle anim anim-3">
+        A comprehensive usability evaluation using Heuristic Analysis and System Usability Scale (SUS) testing —
+        conducted by Group 6, Computational Sciences Department.
+      </p>
+      <div class="page-meta anim anim-4">
+        <span class="meta-tag">AY 2025–2026</span>
+        <span class="meta-tag">HCI2 — Human-Computer Interaction</span>
+        <span class="meta-tag">Partido State University</span>
+      </div>
+    </header>
+
+    <!-- STATS -->
+    <section class="section" style="padding-top:2.5rem; padding-bottom:2.5rem;">
+      <div class="stats-row anim anim-3">
+        <div class="stat-item">
+          <div class="stat-num">5</div>
+          <div class="stat-label">Group Members</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">40</div>
+          <div class="stat-label">Respondents</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">10</div>
+          <div class="stat-label">SUS Items</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">10</div>
+          <div class="stat-label">Nielsen Heuristics</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROTOTYPE SHOWCASE -->
+    <section class="section">
+      <div class="section-label anim anim-1">Evaluated System</div>
+      <h2 class="section-title anim anim-2">Prototype Overview</h2>
+      <p class="section-desc anim anim-3">
+        The system under evaluation is a web-based platform serving the Tigaon community with access to health services,
+        appointment scheduling, and medical information.
+      </p>
+
+      <div class="prototype-showcase anim anim-4">
+        <div class="prototype-bar">
+          <div class="dot dot-r"></div>
+          <div class="dot dot-y"></div>
+          <div class="dot dot-g"></div>
+          <div class="url-bar">tigaon-hospital.netlify.app</div>
+        </div>
+        <div class="prototype-content">
+          <div id="proto-float-wrap" style="position:relative;display:inline-block;margin-bottom:1.5rem;">
+            <img id="proto-laptop" src="prototype/PROTOTYPE OVERVIEW.png" alt="Prototype Overview"
+              style="width:480px;height:480px;object-fit:contain;display:block;" loading="lazy" />
+            <div id="proto-shadow" style="
+              position:absolute;bottom:-18px;left:50%;
+              transform:translateX(-50%);
+              width:65%;height:18px;
+              background:radial-gradient(ellipse,rgba(45,212,191,0.35) 0%,transparent 75%);
+              border-radius:50%;pointer-events:none;">
+            </div>
+          </div>
+          <div class="proto-name">Tigaon – Primary Hospital &amp; Clinic</div>
+          <div class="proto-tagline">Community Health Information Platform</div>
+          <div class="proto-features">
+            <span class="proto-feature">Appointment Booking</span>
+            <span class="proto-feature">Health Service Directory</span>
+            <span class="proto-feature">Inquiry Submission</span>
+            <span class="proto-feature">Doctor Profiles</span>
+            <span class="proto-feature">Chatbot &amp; Voice Navigation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GROUP MEMBERS -->
+    <section class="section">
+      <div class="section-label anim anim-1">The Team</div>
+      <h2 class="section-title anim anim-2">Group 6 Members</h2>
+      <p class="section-desc anim anim-3">
+        Bachelor of Science in Computer Science students from the Computational Sciences Department, Partido State
+        University.
+      </p>
+
+      <div class="members-grid anim anim-4">
+        <div class="member-card">
+          <div class="member-avatar"
+            style="width:90px;height:90px;overflow:hidden;border-radius:50%;border:2px solid rgba(45,212,191,0.3);margin:0 auto 1rem;">
+            <img src="the-team/Jecel Rojas.png" alt="Jecel Rojas"
+              style="width:100%;height:100%;object-fit:cover;display:block;" />
+          </div>
+          <div class="member-name">Jecel Rojas</div>
+          <div class="member-role">group-leader</div>
+          <span class="badge badge-leader">Leader</span>
+        </div>
+        <div class="member-card">
+          <div class="member-avatar"
+            style="width:90px;height:90px;overflow:hidden;border-radius:50%;border:2px solid rgba(45,212,191,0.3);margin:0 auto 1rem;">
+            <img src="the-team/Israel Darwin.png" alt="Israel Darwin"
+              style="width:100%;height:100%;object-fit:cover;display:block;" />
+          </div>
+          <div class="member-name">Israel Darwin</div>
+          <div class="member-role">member</div>
+          <span class="badge badge-member">Member</span>
+        </div>
+        <div class="member-card">
+          <div class="member-avatar"
+            style="width:90px;height:90px;overflow:hidden;border-radius:50%;border:2px solid rgba(45,212,191,0.3);margin:0 auto 1rem;">
+            <img src="the-team/Joshua David Asor.png" alt="Joshua David Asor"
+              style="width:100%;height:100%;object-fit:cover;display:block;" />
+          </div>
+          <div class="member-name">Joshua David Asor</div>
+          <div class="member-role">member</div>
+          <span class="badge badge-member">Member</span>
+        </div>
+        <div class="member-card">
+          <div class="member-avatar"
+            style="width:90px;height:90px;overflow:hidden;border-radius:50%;border:2px solid rgba(45,212,191,0.3);margin:0 auto 1rem;">
+            <img src="the-team/Trisha Magnosay.png" alt="Trisha Magnosay"
+              style="width:100%;height:100%;object-fit:cover;display:block;" />
+          </div>
+          <div class="member-name">Trisha Magnosay</div>
+          <div class="member-role">member</div>
+          <span class="badge badge-member">Member</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT PROJECT -->
+    <section class="section">
+      <div class="section-label">About This Report</div>
+      <h2 class="section-title">Project Overview</h2>
+      <div class="two-col">
+        <div class="prose">
+          <p>
+            This web report documents the comprehensive usability evaluation of the <strong>Tigaon – Primary Hospital
+              and Clinic Website</strong>, our group's midterm prototype developed for the local Tigaon community.
+          </p>
+          <p>
+            The evaluation was conducted using two established methodologies: <strong>Heuristic Evaluation</strong>
+            based on Jakob Nielsen's 10 Usability Heuristics, and <strong>Usability Testing</strong> using the System
+            Usability Scale (SUS) questionnaire with real respondents.
+          </p>
+          <p>
+            This site serves as a central repository of evidence, presenting our findings, analysis, and actionable
+            recommendations to improve the platform's usability and overall user experience.
+          </p>
+        </div>
+        <div>
+          <div class="document-card">
+            <h3><span class="accent-bar"></span>Course Information</h3>
+            <table style="width:100%;font-size:0.8rem;border-collapse:collapse;">
+              <tr style="border-bottom:1px solid var(--border)">
+                <td
+                  style="padding:0.55rem 0;color:var(--text-muted);font-family:'JetBrains Mono',monospace;font-size:0.68rem;width:45%">
+                  COURSE</td>
+                <td style="padding:0.55rem 0;color:var(--text-dim)">HCI2 – Human-Computer Interaction</td>
+              </tr>
+              <tr style="border-bottom:1px solid var(--border)">
+                <td
+                  style="padding:0.55rem 0;color:var(--text-muted);font-family:'JetBrains Mono',monospace;font-size:0.68rem">
+                  INSTRUCTOR</td>
+                <td style="padding:0.55rem 0;color:var(--text-dim)">Michael B. Amata</td>
+              </tr>
+              <tr style="border-bottom:1px solid var(--border)">
+                <td
+                  style="padding:0.55rem 0;color:var(--text-muted);font-family:'JetBrains Mono',monospace;font-size:0.68rem">
+                  SCHOOL</td>
+                <td style="padding:0.55rem 0;color:var(--text-dim)">Partido State University</td>
+              </tr>
+              <tr style="border-bottom:1px solid var(--border)">
+                <td
+                  style="padding:0.55rem 0;color:var(--text-muted);font-family:'JetBrains Mono',monospace;font-size:0.68rem">
+                  DEPT</td>
+                <td style="padding:0.55rem 0;color:var(--text-dim)">Computational Sciences</td>
+              </tr>
+              <tr>
+                <td
+                  style="padding:0.55rem 0;color:var(--text-muted);font-family:'JetBrains Mono',monospace;font-size:0.68rem">
+                  GROUP LEADER</td>
+                <td style="padding:0.55rem 0;color:var(--accent)">Jecel Rojas</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span>© 2025 Group 6 — Partido State University · HCI2 Final Project</span>
+      <span>Tigaon – Primary Hospital &amp; Clinic Website · Usability Evaluation</span>
+    </footer>
+  </main>
+
+  <script>
+    function toggleSidebar() {
+      document.getElementById('sidebar').classList.toggle('open');
+      document.getElementById('overlay').classList.toggle('open');
+    }
+  </script>
+  <script src="animations.js"></script>
+</body>
+
+</html>

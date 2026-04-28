@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reflections — Tigaon Hospital HCI Evaluation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <button class="hamburger" onclick="toggleSidebar()">☰</button>
+  <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+
+  <!-- ─── SIDEBAR ─── -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-brand">
+      <div class="sidebar-brand-title">HCI2 Final<br />Report</div>
+      <div class="sidebar-brand-sub">Group 6 · 2025</div>
+    </div>
+
+    <div class="sidebar-section-label">Navigation</div>
+    <ul class="sidebar-nav">
+      <li><a href="index.html"><span class="nav-icon">⌂</span> Home</a></li>
+      <li><a href="data-gathering.html"><span class="nav-icon">◈</span> Data Gathering</a></li>
+      <li><a href="results.html"><span class="nav-icon">◉</span> Results &amp; Discussion</a></li>
+      <li><a href="reflections.html" class="active"><span class="nav-icon">◇</span> Reflections</a></li>
+    </ul>
+
+    <hr class="sidebar-divider" />
+    <div class="sidebar-footer">
+      <strong>Partido State University</strong>
+      College of Engineering &amp; Computational Sciences<br />
+      Computational Sciences Dept.
+    </div>
+  </aside>
+
+  <!-- ─── MAIN ─── -->
+  <main class="main">
+
+    <!-- PAGE HEADER -->
+    <header class="page-header">
+      <div class="page-label anim anim-1">04 · Reflections · Optional</div>
+      <h1 class="page-title anim anim-2">What We<br /><span>Learned</span></h1>
+      <p class="page-subtitle anim anim-3">
+        Personal reflections from each group member on the experience of conducting a real-world usability evaluation —
+        the challenges faced, insights gained, and lessons carried forward.
+      </p>
+    </header>
+
+    <!-- GROUP REFLECTION -->
+    <section class="section">
+      <div class="section-label anim anim-1">Collective Takeaway</div>
+      <h2 class="section-title anim anim-2">Group Reflection</h2>
+
+      <div class="document-card anim anim-3" style="border-color:rgba(45,212,191,0.2);background:var(--accent-dim)">
+        <h3><span class="accent-bar"></span>Group 6 — Overall Experience</h3>
+        <p>
+          Conducting this usability evaluation was one of the most grounding experiences of our HCI course. We often
+          design or build systems with the assumption that users will behave as we expect — but real-world testing
+          quickly dispelled that notion.
+        </p>
+        <p>
+          Watching respondents interact with our prototype revealed invisible gaps between our intent as designers and
+          the actual experience of end users. Our SUS score of <span
+            style="color:var(--accent);font-family:'JetBrains Mono',monospace">72.5</span> is a meaningful number — not
+          just a grade, but a mirror of where our design is strong and where it falls short.
+        </p>
+        <p style="margin:0">
+          As a team, we leave this project with a deeper appreciation for iterative design, the value of early user
+          feedback, and the importance of designing not just for ourselves, but for the community we serve — in this
+          case, the people of Tigaon.
+        </p>
+      </div>
+    </section>
+
+    <!-- INDIVIDUAL REFLECTIONS -->
+    <section class="section">
+      <div class="section-label">Individual Reflections</div>
+      <h2 class="section-title">From Each Member</h2>
+      <p class="section-desc">
+        Each member shares their personal takeaways from the evaluation process. Update these with your own words.
+      </p>
+
+      <div class="reflection-card">
+        <blockquote>
+          "Leading the group through the usability evaluation taught me that good intentions in design are never enough.
+          When a respondent struggled to find the appointment button — something I had considered obvious — I realized
+          how deeply assumptions can blind a designer to real user needs. Nielsen's heuristics gave us a structured
+          language to describe what we observed, and that structure made our feedback actionable rather than vague."
+        </blockquote>
+        <div class="reflection-author">Jecel Rojas · Group Leader</div>
+      </div>
+
+      <div class="reflection-card">
+        <blockquote>
+          "This was my first time conducting a formal usability test, and I was surprised by how much information you
+          can gather just by observing someone use a system without guiding them. The SUS questionnaire, which I
+          initially thought was too simple, turned out to be a powerful tool for quantifying something as abstract as
+          'ease of use.' I'll carry the SUS with me into every future project."
+        </blockquote>
+        <div class="reflection-author">Member Name 2 · Developer</div>
+      </div>
+
+      <div class="reflection-card">
+        <blockquote>
+          "What stood out to me most was the difference in scores between respondents with prior experience versus those
+          without. A gap of over 13 SUS points told a clear story: our design assumed too much. Going forward, I want to
+          design with the least experienced user in mind first, then layer complexity for advanced users — not the other
+          way around."
+        </blockquote>
+        <div class="reflection-author">Member Name 3 · UX Researcher</div>
+      </div>
+
+      <div class="reflection-card">
+        <blockquote>
+          "Documenting the evaluation sessions — photos, notes, surveys — made me appreciate how much evidence goes into
+          a credible usability report. Design decisions should never be made on gut feeling alone. Every recommendation
+          we made is backed by real observations from real people, and that gives our report a weight that feels
+          genuinely useful, not just academic."
+        </blockquote>
+        <div class="reflection-author">Member Name 4 · Documenter</div>
+      </div>
+
+      <div class="reflection-card">
+        <blockquote>
+          "The heuristic evaluation opened my eyes to problems I had been walking past every time I worked on the
+          prototype. Because I was so familiar with the system, I had developed blindness to its flaws. Working through
+          each of Nielsen's 10 heuristics methodically forced me to look at the design from a user's perspective, not a
+          builder's — and that shift in perspective is something I'll use for the rest of my career."
+        </blockquote>
+        <div class="reflection-author">Member Name 5 · Evaluator</div>
+      </div>
+    </section>
+
+    <!-- LESSONS LEARNED -->
+    <section class="section">
+      <div class="section-label">Key Lessons</div>
+      <h2 class="section-title">What We Take Forward</h2>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem;margin-top:1.5rem">
+        <div class="document-card" style="margin-bottom:0">
+          <h3><span class="accent-bar"></span>Test Early</h3>
+          <p style="margin:0;font-size:0.8rem">Usability issues discovered late are expensive to fix. Involving real
+            users from the earliest prototype stage would have saved significant rework.</p>
+        </div>
+        <div class="document-card" style="margin-bottom:0">
+          <h3><span class="accent-bar"></span>Observe, Don't Guide</h3>
+          <p style="margin:0;font-size:0.8rem">The most valuable data came from watching users struggle quietly — not
+            from asking them how they feel. Resisting the urge to help was harder than expected.</p>
+        </div>
+        <div class="document-card" style="margin-bottom:0">
+          <h3><span class="accent-bar"></span>Quantify &amp; Qualify</h3>
+          <p style="margin:0;font-size:0.8rem">SUS scores gave us numbers; open-ended questions gave us stories.
+            Together, they painted a much fuller picture than either alone could.</p>
+        </div>
+        <div class="document-card" style="margin-bottom:0">
+          <h3><span class="accent-bar"></span>Design for the Community</h3>
+          <p style="margin:0;font-size:0.8rem">The Tigaon community includes users with varying levels of tech literacy.
+            Designing for the median, not the expert, is the most inclusive choice.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLOSING -->
+    <section class="section" style="text-align:center;padding:5rem 4.5rem">
+      <div class="page-label" style="justify-content:center">End of Report</div>
+      <h2
+        style="font-family:'Syne',sans-serif;font-size:2.5rem;font-weight:800;color:var(--white);letter-spacing:-0.02em;margin:1rem 0">
+        Thank you for reading.
+      </h2>
+      <p style="color:var(--text-muted);max-width:480px;margin:0 auto 2rem;font-size:0.9rem;line-height:1.8">
+        This report was prepared by Group 6 of the Computational Sciences Department, Partido State University, in
+        partial fulfillment of the requirements for HCI2 – Human-Computer Interaction.
+      </p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
+        <a href="index.html"
+          style="background:var(--accent);color:var(--bg);padding:0.75rem 1.75rem;border-radius:8px;text-decoration:none;font-family:'Syne',sans-serif;font-weight:700;font-size:0.85rem">←
+          Back to Home</a>
+        <a href="results.html"
+          style="background:var(--surface-2);color:var(--text);padding:0.75rem 1.75rem;border-radius:8px;text-decoration:none;font-family:'Syne',sans-serif;font-weight:600;font-size:0.85rem;border:1px solid var(--border)">View
+          Results</a>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span>© 2025 Group 6 — Partido State University · HCI2 Final Project</span>
+      <span>Group Leader: Jecel Rojas · jecely2026@gmail.com</span>
+    </footer>
+  </main>
+
+  <script>
+    function toggleSidebar() {
+      document.getElementById('sidebar').classList.toggle('open');
+      document.getElementById('overlay').classList.toggle('open');
+    }
+  </script>
+  <script src="animations.js"></script>
+</body>
+
+</html>
