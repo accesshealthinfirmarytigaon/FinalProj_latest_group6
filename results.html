@@ -1,372 +1,518 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Results &amp; Discussion — Tigaon Hospital HCI Evaluation</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-<button class="hamburger" onclick="toggleSidebar()">☰</button>
-<div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+  <button class="hamburger" onclick="toggleSidebar()">☰</button>
+  <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
 
-<aside class="sidebar" id="sidebar">
-  <div class="sidebar-brand">
-    <div class="sidebar-brand-title">HCI2 Final<br/>Report</div>
-    <div class="sidebar-brand-sub">Group 6 · 2025</div>
-  </div>
-  <div class="sidebar-section-label">Navigation</div>
-  <ul class="sidebar-nav">
-    <li><a href="index.html"><span class="nav-icon">⌂</span> Home</a></li>
-    <li><a href="data-gathering.html"><span class="nav-icon">◈</span> Data Gathering</a></li>
-    <li><a href="results.html" class="active"><span class="nav-icon">◉</span> Results &amp; Discussion</a></li>
-    <li><a href="reflections.html"><span class="nav-icon">◇</span> Reflections</a></li>
-  </ul>
-  <hr class="sidebar-divider" />
-  <div class="sidebar-section-label">On This Page</div>
-  <ul class="sidebar-nav">
-    <li><a href="#sus-score"><span class="nav-icon">·</span> SUS Score</a></li>
-    <li><a href="#frequency"><span class="nav-icon">·</span> Frequency Table</a></li>
-    <li><a href="#heuristic"><span class="nav-icon">·</span> Heuristic Evaluation</a></li>
-    <li><a href="#issues"><span class="nav-icon">·</span> Key Issues</a></li>
-    <li><a href="#discussion"><span class="nav-icon">·</span> Discussion</a></li>
-    <li><a href="#recommendations"><span class="nav-icon">·</span> Recommendations</a></li>
-  </ul>
-  <hr class="sidebar-divider" />
-  <div class="sidebar-footer">
-    <strong>Partido State University</strong>
-    College of Engineering &amp; Computational Sciences<br/>
-    Computational Sciences Dept.
-  </div>
-</aside>
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-brand">
+      <div class="sidebar-brand-title">HCI2 Final<br />Report</div>
+      <div class="sidebar-brand-sub">Group 6 · 2025</div>
+    </div>
+    <div class="sidebar-section-label">Navigation</div>
+    <ul class="sidebar-nav">
+      <li><a href="index.html"><span class="nav-icon">⌂</span> Home</a></li>
+      <li><a href="data-gathering.html"><span class="nav-icon">◈</span> Data Gathering</a></li>
+      <li><a href="results.html" class="active"><span class="nav-icon">◉</span> Results &amp; Discussion</a></li>
+      <li><a href="reflections.html"><span class="nav-icon">◇</span> Reflections</a></li>
+    </ul>
+    <hr class="sidebar-divider" />
+    <div class="sidebar-section-label">On This Page</div>
+    <ul class="sidebar-nav">
+      <li><a href="#sus-score"><span class="nav-icon">·</span> SUS Score</a></li>
+      <li><a href="#frequency"><span class="nav-icon">·</span> Frequency Table</a></li>
+      <li><a href="#heuristic"><span class="nav-icon">·</span> Heuristic Evaluation</a></li>
+      <li><a href="#issues"><span class="nav-icon">·</span> Key Issues</a></li>
+      <li><a href="#discussion"><span class="nav-icon">·</span> Discussion</a></li>
+      <li><a href="#recommendations"><span class="nav-icon">·</span> Recommendations</a></li>
+    </ul>
+    <hr class="sidebar-divider" />
+    <div class="sidebar-footer">
+      <strong>Partido State University</strong>
+      College of Engineering &amp; Computational Sciences<br />
+      Computational Sciences Dept.
+    </div>
+  </aside>
 
-<main class="main">
+  <main class="main">
 
-  <header class="page-header">
-    <div class="page-label anim anim-1">03 · Results, Discussion &amp; Recommendations</div>
-    <h1 class="page-title anim anim-2">Findings &amp;<br/><span>Analysis</span></h1>
-    <p class="page-subtitle anim anim-3">
-      A synthesis of usability testing results from <strong style="color:var(--text)">40 respondents</strong>, heuristic evaluation findings, and data-driven recommendations for improving the Tigaon – Primary Hospital and Clinic Website.
-    </p>
-  </header>
+    <header class="page-header">
+      <div class="page-label anim anim-1">03 · Results, Discussion &amp; Recommendations</div>
+      <h1 class="page-title anim anim-2">Findings &amp;<br /><span>Analysis</span></h1>
+      <p class="page-subtitle anim anim-3">
+        A synthesis of usability testing results from <strong style="color:var(--text)">40 respondents</strong>,
+        heuristic evaluation findings, and data-driven recommendations for improving the Tigaon – Primary Hospital and
+        Clinic Website.
+      </p>
+    </header>
 
-  <!-- SUS SCORE -->
-  <section class="section" id="sus-score">
-    <div class="section-label anim anim-1">System Usability Scale Results</div>
-    <h2 class="section-title anim anim-2">Overall SUS Score</h2>
-    <p class="section-desc anim anim-3">
-      The SUS was administered to 40 respondents. Each item was scored using the standard SUS formula: odd items → (rating − 1); even items → (5 − rating). All 10 contributions per respondent are summed and multiplied by 2.5, yielding a final score from 0–100.
-    </p>
+    <!-- SUS SCORE -->
+    <section class="section" id="sus-score">
+      <div class="section-label anim anim-1">System Usability Scale Results</div>
+      <h2 class="section-title anim anim-2">Overall SUS Score</h2>
+      <p class="section-desc anim anim-3">
+        The SUS was administered to 40 respondents. Each item was scored using the standard SUS formula: odd items →
+        (rating − 1); even items → (5 − rating). All 10 contributions per respondent are summed and multiplied by 2.5,
+        yielding a final score from 0–100.
+      </p>
 
-    <div class="two-col anim anim-3" style="margin-bottom:3rem;align-items:start;">
-      <!-- Left: big score + benchmarks -->
-      <div>
-        <div class="score-hero" style="margin-bottom:2rem">
-          <div class="sus-score-big">73.1</div>
-          <div class="score-details">
-            <div class="score-grade">Grade B · Good Usability</div>
-            <div class="score-interpretation">Above Industry Average</div>
-            <div class="score-desc">73.1 / 100 — exceeds the industry benchmark of 68. Perceived as usable, with targeted areas for improvement.</div>
+      <div class="two-col anim anim-3" style="margin-bottom:3rem;align-items:start;">
+        <!-- Left: big score + benchmarks -->
+        <div>
+          <div class="score-hero" style="margin-bottom:2rem">
+            <div class="sus-score-big">73.1</div>
+            <div class="score-details">
+              <div class="score-grade">Grade B · Good Usability</div>
+              <div class="score-interpretation">Above Industry Average</div>
+              <div class="score-desc">73.1 / 100 — exceeds the industry benchmark of 68. Perceived as usable, with
+                targeted areas for improvement.</div>
+            </div>
+          </div>
+
+          <div
+            style="background:var(--surface-2);border:1px solid var(--border);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:1.5rem">
+            <div class="section-label" style="margin-bottom:1rem">SUS Score Benchmarks</div>
+            <div id="benchmarks"></div>
+          </div>
+
+          <div class="stats-row" style="border-radius:10px">
+            <div class="stat-item">
+              <div class="stat-num" style="font-size:1.5rem">40</div>
+              <div class="stat-label">Respondents</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num" style="font-size:1.5rem">4.33</div>
+              <div class="stat-label">Best Item (Q5)</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num" style="font-size:1.5rem">2.00</div>
+              <div class="stat-label">Lowest Item (Q6)</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num" style="font-size:1.5rem">73.1</div>
+              <div class="stat-label">SUS Score</div>
+            </div>
           </div>
         </div>
 
-        <div style="background:var(--surface-2);border:1px solid var(--border);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:1.5rem">
-          <div class="section-label" style="margin-bottom:1rem">SUS Score Benchmarks</div>
-          <div id="benchmarks"></div>
-        </div>
-
-        <div class="stats-row" style="border-radius:10px">
-          <div class="stat-item"><div class="stat-num" style="font-size:1.5rem">40</div><div class="stat-label">Respondents</div></div>
-          <div class="stat-item"><div class="stat-num" style="font-size:1.5rem">4.33</div><div class="stat-label">Best Item (Q5)</div></div>
-          <div class="stat-item"><div class="stat-num" style="font-size:1.5rem">2.00</div><div class="stat-label">Lowest Item (Q6)</div></div>
-          <div class="stat-item"><div class="stat-num" style="font-size:1.5rem">73.1</div><div class="stat-label">SUS Score</div></div>
-        </div>
-      </div>
-
-      <!-- Right: per-item bars -->
-      <div>
-        <div class="document-card" style="margin-bottom:0">
-          <h3><span class="accent-bar"></span>Average Rating Per SUS Item</h3>
-          <p style="font-size:0.75rem;color:var(--text-muted);margin-bottom:1.25rem">Scale: 1=Strongly Disagree → 5=Strongly Agree &nbsp;·&nbsp; n=40</p>
-          <div id="item-bars"></div>
-          <div style="display:flex;gap:1.25rem;margin-top:1rem;font-size:0.65rem;font-family:'JetBrains Mono',monospace;color:var(--text-muted)">
-            <span><span style="color:var(--accent)">█</span> Positive items (higher = better)</span>
-            <span><span style="color:var(--accent-2)">█</span> Negative items (lower = better)</span>
+        <!-- Right: per-item bars -->
+        <div>
+          <div class="document-card" style="margin-bottom:0">
+            <h3><span class="accent-bar"></span>Average Rating Per SUS Item</h3>
+            <p style="font-size:0.75rem;color:var(--text-muted);margin-bottom:1.25rem">Scale: 1=Strongly Disagree →
+              5=Strongly Agree &nbsp;·&nbsp; n=40</p>
+            <div id="item-bars"></div>
+            <div
+              style="display:flex;gap:1.25rem;margin-top:1rem;font-size:0.65rem;font-family:'JetBrains Mono',monospace;color:var(--text-muted)">
+              <span><span style="color:var(--accent)">█</span> Positive items (higher = better)</span>
+              <span><span style="color:var(--accent-2)">█</span> Negative items (lower = better)</span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- FREQUENCY TABLE -->
-  <section class="section" id="frequency">
-    <div class="section-label">Raw Survey Data</div>
-    <h2 class="section-title">Response Frequency Table</h2>
-    <p class="section-desc">
-      Number of respondents (out of 40) who selected each rating per SUS statement. Data sourced directly from <em>SurveyResult.xlsx</em>.
-    </p>
+    <!-- FREQUENCY TABLE -->
+    <section class="section" id="frequency">
+      <div class="section-label">Raw Survey Data</div>
+      <h2 class="section-title">Response Frequency Table</h2>
+      <p class="section-desc">
+        Number of respondents (out of 40) who selected each rating per SUS statement. Data sourced directly from
+        <em>SurveyResult.xlsx</em>.
+      </p>
 
-    <div class="sus-table-wrap">
-      <table class="sus-table">
-        <thead>
-          <tr>
-            <th>No.</th>
-            <th>Statement</th>
-            <th>1<br/>Strongly<br/>Disagree</th>
-            <th>2<br/>Disagree</th>
-            <th>3<br/>Neutral</th>
-            <th>4<br/>Agree</th>
-            <th>5<br/>Strongly<br/>Agree</th>
-            <th>Total</th>
-            <th>Mean</th>
-            <th>Contrib.</th>
-          </tr>
-        </thead>
-        <tbody id="freq-tbody"></tbody>
-      </table>
-    </div>
-    <p style="font-size:0.72rem;color:var(--text-muted);margin-top:0.75rem;font-family:'JetBrains Mono',monospace;">
-      "—" = zero responses. "Contrib." = average SUS contribution per respondent per item. Odd items: (Mean−1); Even items: (5−Mean).
-    </p>
-  </section>
-
-  <!-- HEURISTIC -->
-  <section class="section" id="heuristic">
-    <div class="section-label">Heuristic Evaluation</div>
-    <h2 class="section-title">Nielsen's 10 Heuristics — Violation Summary</h2>
-    <p class="section-desc">
-      All 5 group members independently evaluated the prototype using Jakob Nielsen's 10 Usability Heuristics. The table aggregates violations identified across all evaluators.
-    </p>
-
-    <div class="demo-table-wrap">
-      <table class="demo-table">
-        <thead>
-          <tr><th>#</th><th>Heuristic</th><th>Violations</th><th>Severity</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>H1</td><td>Visibility of System Status</td><td>2</td><td><span class="severity severity-medium">Medium</span></td></tr>
-          <tr><td>H2</td><td>Match Between System and Real World</td><td>1</td><td><span class="severity severity-low">Low</span></td></tr>
-          <tr><td>H3</td><td>User Control and Freedom</td><td>3</td><td><span class="severity severity-high">High</span></td></tr>
-          <tr><td>H4</td><td>Consistency and Standards</td><td>2</td><td><span class="severity severity-medium">Medium</span></td></tr>
-          <tr><td>H5</td><td>Error Prevention</td><td>2</td><td><span class="severity severity-medium">Medium</span></td></tr>
-          <tr><td>H6</td><td>Recognition Rather Than Recall</td><td>1</td><td><span class="severity severity-low">Low</span></td></tr>
-          <tr><td>H7</td><td>Flexibility and Efficiency of Use</td><td>2</td><td><span class="severity severity-medium">Medium</span></td></tr>
-          <tr><td>H8</td><td>Aesthetic and Minimalist Design</td><td>3</td><td><span class="severity severity-high">High</span></td></tr>
-          <tr><td>H9</td><td>Help Users Recognize &amp; Recover from Errors</td><td>1</td><td><span class="severity severity-low">Low</span></td></tr>
-          <tr><td>H10</td><td>Help and Documentation</td><td>2</td><td><span class="severity severity-medium">Medium</span></td></tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="document-card" style="margin-top:1.5rem">
-      <h3><span class="accent-bar"></span>Heuristic Evaluation Workbook</h3>
-      <p style="margin:0">Each of the 5 group members completed an individual heuristic evaluation workbook. 📎 <a href="#" style="color:var(--accent);text-decoration:none">Attach completed PDF workbook here</a></p>
-    </div>
-  </section>
-
-  <!-- KEY ISSUES -->
-  <section class="section" id="issues">
-    <div class="section-label">Key Issues Identified</div>
-    <h2 class="section-title">Usability Problems</h2>
-    <p class="section-desc">
-      Issues identified through heuristic evaluation and open-ended responses from 40 respondents, cross-referenced with low-scoring SUS items. Sorted by severity.
-    </p>
-
-    <div class="issues-list">
-      <div class="issue-card">
-        <div class="issue-header"><h4>No Feedback on Form Submission</h4><span class="severity severity-high">High</span></div>
-        <p>After submitting the appointment or inquiry form, users received no visible confirmation. Several respondents noted uncertainty about whether their submissions were received. This directly aligns with H1 violations documented during heuristic evaluation.</p>
-        <div class="heuristic-tag">Violates H1: Visibility of System Status · H9: Help Users Recover from Errors</div>
+      <div class="sus-table-wrap">
+        <table class="sus-table">
+          <thead>
+            <tr>
+              <th>No.</th>
+              <th>Statement</th>
+              <th>1<br />Strongly<br />Disagree</th>
+              <th>2<br />Disagree</th>
+              <th>3<br />Neutral</th>
+              <th>4<br />Agree</th>
+              <th>5<br />Strongly<br />Agree</th>
+              <th>Total</th>
+              <th>Mean</th>
+              <th>Contrib.</th>
+            </tr>
+          </thead>
+          <tbody id="freq-tbody"></tbody>
+        </table>
       </div>
+      <p style="font-size:0.72rem;color:var(--text-muted);margin-top:0.75rem;font-family:'JetBrains Mono',monospace;">
+        "—" = zero responses. "Contrib." = average SUS contribution per respondent per item. Odd items: (Mean−1); Even
+        items: (5−Mean).
+      </p>
+    </section>
 
-      <div class="issue-card">
-        <div class="issue-header"><h4>Cluttered Homepage Layout</h4><span class="severity severity-high">High</span></div>
-        <p>The homepage presents too many competing elements, burying the primary call-to-action. Open-ended responses noted difficulty discovering key features. Despite Q5 scoring highest (avg 4.33 — functions well integrated), discoverability remains a barrier — consistent with H8 violations identified by all 5 evaluators.</p>
-        <div class="heuristic-tag">Violates H8: Aesthetic and Minimalist Design · H3: User Control and Freedom</div>
+    <!-- HEURISTIC -->
+    <section class="section" id="heuristic">
+      <div class="section-label">Heuristic Evaluation</div>
+      <h2 class="section-title">Nielsen's 10 Heuristics — Violation Summary</h2>
+      <p class="section-desc">
+        All 4 group members independently evaluated the prototype using Jakob Nielsen's 10 Usability Heuristics. The
+        table aggregates violations identified across all evaluators.
+      </p>
+
+      <div class="demo-table-wrap">
+        <table class="demo-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Heuristic</th>
+              <th>Violations</th>
+              <th>Severity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>H1</td>
+              <td>Visibility of System Status</td>
+              <td>2</td>
+              <td><span class="severity severity-medium">Medium</span></td>
+            </tr>
+            <tr>
+              <td>H2</td>
+              <td>Match Between System and Real World</td>
+              <td>1</td>
+              <td><span class="severity severity-low">Low</span></td>
+            </tr>
+            <tr>
+              <td>H3</td>
+              <td>User Control and Freedom</td>
+              <td>3</td>
+              <td><span class="severity severity-high">High</span></td>
+            </tr>
+            <tr>
+              <td>H4</td>
+              <td>Consistency and Standards</td>
+              <td>2</td>
+              <td><span class="severity severity-medium">Medium</span></td>
+            </tr>
+            <tr>
+              <td>H5</td>
+              <td>Error Prevention</td>
+              <td>2</td>
+              <td><span class="severity severity-medium">Medium</span></td>
+            </tr>
+            <tr>
+              <td>H6</td>
+              <td>Recognition Rather Than Recall</td>
+              <td>1</td>
+              <td><span class="severity severity-low">Low</span></td>
+            </tr>
+            <tr>
+              <td>H7</td>
+              <td>Flexibility and Efficiency of Use</td>
+              <td>2</td>
+              <td><span class="severity severity-medium">Medium</span></td>
+            </tr>
+            <tr>
+              <td>H8</td>
+              <td>Aesthetic and Minimalist Design</td>
+              <td>3</td>
+              <td><span class="severity severity-high">High</span></td>
+            </tr>
+            <tr>
+              <td>H9</td>
+              <td>Help Users Recognize &amp; Recover from Errors</td>
+              <td>1</td>
+              <td><span class="severity severity-low">Low</span></td>
+            </tr>
+            <tr>
+              <td>H10</td>
+              <td>Help and Documentation</td>
+              <td>2</td>
+              <td><span class="severity severity-medium">Medium</span></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-
-      <div class="issue-card">
-        <div class="issue-header"><h4>No Bikol / Filipino Language Support</h4><span class="severity severity-high">High</span></div>
-        <p>Multiple respondents explicitly recommended Bikol or Filipino/Tagalog translation in open-ended responses, noting that elderly community members and non-English speakers would struggle to use the platform. This is a critical accessibility gap for a community health service designed for Tigaon.</p>
-        <div class="heuristic-tag">Violates H2: Match Between System and Real World · H7: Flexibility and Efficiency of Use</div>
+      <div class="document-card" style="margin-top:1.5rem">
+        <h3><span class="accent-bar"></span>Heuristic Evaluation Workbook</h3>
+        <p style="margin:0">Each of the 4 group members completed an individual heuristic evaluation workbook. 📎 <a
+            href="#" style="color:var(--accent);text-decoration:none">Attach completed PDF workbook here</a></p>
       </div>
+    </section>
 
-      <div class="issue-card">
-        <div class="issue-header"><h4>Insufficient Doctor/Specialist Directory Detail</h4><span class="severity severity-medium">Medium</span></div>
-        <p>Respondents noted that the specialist directory lacked availability information and details on what each doctor does — making it feel unhelpful. This reflects a H2 violation where the system doesn't match real-world hospital directory expectations.</p>
-        <div class="heuristic-tag">Violates H2: Match Between System and Real World · H6: Recognition Rather Than Recall</div>
-      </div>
+    <!-- KEY ISSUES -->
+    <section class="section" id="issues">
+      <div class="section-label">Key Issues Identified</div>
+      <h2 class="section-title">Usability Problems</h2>
+      <p class="section-desc">
+        Issues identified through heuristic evaluation and open-ended responses from 40 respondents, cross-referenced
+        with low-scoring SUS items. Sorted by severity.
+      </p>
 
-      <div class="issue-card">
-        <div class="issue-header"><h4>No Back Navigation on Multi-Step Flows</h4><span class="severity severity-medium">Medium</span></div>
-        <p>During appointment scheduling, users cannot edit previous steps without restarting. Q10 ("Needed to learn a lot before getting going") averaged 2.60, with 7 respondents selecting Neutral or Agree — signaling a learnability barrier for a subset of users without prior experience.</p>
-        <div class="heuristic-tag">Violates H3: User Control and Freedom · H5: Error Prevention</div>
-      </div>
+      <div class="issues-list">
+        <div class="issue-card">
+          <div class="issue-header">
+            <h4>No Feedback on Form Submission</h4><span class="severity severity-high">High</span>
+          </div>
+          <p>After submitting the appointment or inquiry form, users received no visible confirmation. Several
+            respondents noted uncertainty about whether their submissions were received. This directly aligns with H1
+            violations documented during heuristic evaluation.</p>
+          <div class="heuristic-tag">Violates H1: Visibility of System Status · H9: Help Users Recover from Errors</div>
+        </div>
 
-      <div class="issue-card">
-        <div class="issue-header"><h4>Missing Onboarding and Help Documentation</h4><span class="severity severity-low">Low</span></div>
-        <p>Respondents suggested a step-by-step tutorial for new users. This aligns with H10 violations and Q4 (avg 2.28) — while most respondents felt independent, 12 out of 40 were neutral or agreed that they needed technical support to use the system.</p>
-        <div class="heuristic-tag">Violates H10: Help and Documentation · H6: Recognition Rather Than Recall</div>
-      </div>
-    </div>
-  </section>
+        <div class="issue-card">
+          <div class="issue-header">
+            <h4>Cluttered Homepage Layout</h4><span class="severity severity-high">High</span>
+          </div>
+          <p>The homepage presents too many competing elements, burying the primary call-to-action. Open-ended responses
+            noted difficulty discovering key features. Despite Q5 scoring highest (avg 4.33 — functions well
+            integrated), discoverability remains a barrier — consistent with H8 violations identified by all 5
+            evaluators.</p>
+          <div class="heuristic-tag">Violates H8: Aesthetic and Minimalist Design · H3: User Control and Freedom</div>
+        </div>
 
-  <!-- DISCUSSION -->
-  <section class="section" id="discussion">
-    <div class="section-label">Discussion of Findings</div>
-    <h2 class="section-title">What the Data Tells Us</h2>
-    <p class="section-desc">An interpretation of usability test results in the context of HCI principles and real respondent feedback.</p>
+        <div class="issue-card">
+          <div class="issue-header">
+            <h4>No Bikol / Filipino Language Support</h4><span class="severity severity-high">High</span>
+          </div>
+          <p>Multiple respondents explicitly recommended Bikol or Filipino/Tagalog translation in open-ended responses,
+            noting that elderly community members and non-English speakers would struggle to use the platform. This is a
+            critical accessibility gap for a community health service designed for Tigaon.</p>
+          <div class="heuristic-tag">Violates H2: Match Between System and Real World · H7: Flexibility and Efficiency
+            of Use</div>
+        </div>
 
-    <div class="two-col">
-      <div class="prose">
-        <p>
-          The average SUS score of <strong>73.1</strong> places the Tigaon – Primary Hospital and Clinic Website in the <strong>"Good" usability range (Grade B)</strong>, exceeding the industry benchmark of 68. This indicates the system is generally usable for its intended audience — 40 respondents predominantly composed of 2nd-year education students aged 19–26 from Partido State University.
-        </p>
-        <p>
-          The highest-performing items were <strong>Q5</strong> ("Functions well integrated," avg 4.33), <strong>Q3</strong> ("Easy to use," avg 4.18), and <strong>Q7</strong> ("Most people would learn quickly," avg 4.15). These confirm that the system's core features work coherently and are perceived as learnable — genuine design strengths to preserve.
-        </p>
-        <p>
-          Negatively worded items also performed well: <strong>Q6</strong> ("Too much inconsistency," avg 2.00) and <strong>Q8</strong> ("Cumbersome to use," avg 2.03) both had very low averages — meaning 28 and 27 of 40 respondents respectively <em>disagreed</em> that the system was inconsistent or cumbersome. This is a significant positive finding.
-        </p>
-      </div>
-      <div class="prose">
-        <p>
-          Despite the positive SUS outcome, <strong>Q10</strong> ("Needed to learn a lot," avg 2.60) and <strong>Q2</strong> ("Unnecessarily complex," avg 2.60) showed the widest spread in responses — 7 and 4 respondents respectively agreeing with these negative statements. This reveals a learnability gap for a subset of users, particularly the 20 of 40 respondents who had no prior experience with similar systems.
-        </p>
-        <p>
-          Qualitative open-ended responses significantly enriched the quantitative findings. The most consistent theme was <strong>the need for local language support</strong> (Bikol/Filipino) — raised independently by multiple respondents and not captured by any SUS item. The second most common theme was the need for more detailed specialist/doctor information and better booking confirmation feedback.
-        </p>
-        <p>
-          The evaluation reveals a system with a strong functional foundation — but with specific, highly actionable gaps in feedback mechanisms, language accessibility, onboarding, and information depth. Addressing these would realistically push the SUS score into the Excellent range (≥ 85).
-        </p>
-      </div>
-    </div>
-  </section>
+        <div class="issue-card">
+          <div class="issue-header">
+            <h4>Insufficient Doctor/Specialist Directory Detail</h4><span class="severity severity-medium">Medium</span>
+          </div>
+          <p>Respondents noted that the specialist directory lacked availability information and details on what each
+            doctor does — making it feel unhelpful. This reflects a H2 violation where the system doesn't match
+            real-world hospital directory expectations.</p>
+          <div class="heuristic-tag">Violates H2: Match Between System and Real World · H6: Recognition Rather Than
+            Recall</div>
+        </div>
 
-  <!-- RECOMMENDATIONS -->
-  <section class="section" id="recommendations">
-    <div class="section-label">Recommendations</div>
-    <h2 class="section-title">Suggested Design Improvements</h2>
-    <p class="section-desc">
-      Based on SUS data from 40 respondents, open-ended qualitative feedback, and heuristic evaluation findings — ranked by priority.
-    </p>
+        <div class="issue-card">
+          <div class="issue-header">
+            <h4>No Back Navigation on Multi-Step Flows</h4><span class="severity severity-medium">Medium</span>
+          </div>
+          <p>During appointment scheduling, users cannot edit previous steps without restarting. Q10 ("Needed to learn a
+            lot before getting going") averaged 2.60, with 7 respondents selecting Neutral or Agree — signaling a
+            learnability barrier for a subset of users without prior experience.</p>
+          <div class="heuristic-tag">Violates H3: User Control and Freedom · H5: Error Prevention</div>
+        </div>
 
-    <div class="rec-list">
-      <div class="rec-card">
-        <div class="rec-num">01</div>
-        <div class="rec-content">
-          <h4>Add Bikol and Filipino Language Support</h4>
-          <p>Implement a language toggle (English / Filipino / Bikol) across all pages. Multiple respondents cited this as the most critical improvement for the Tigaon community — particularly for elderly residents and non-English speakers. This directly serves the platform's mission as a community health resource and addresses H2 violations.</p>
+        <div class="issue-card">
+          <div class="issue-header">
+            <h4>Missing Onboarding and Help Documentation</h4><span class="severity severity-low">Low</span>
+          </div>
+          <p>Respondents suggested a step-by-step tutorial for new users. This aligns with H10 violations and Q4 (avg
+            2.28) — while most respondents felt independent, 12 out of 40 were neutral or agreed that they needed
+            technical support to use the system.</p>
+          <div class="heuristic-tag">Violates H10: Help and Documentation · H6: Recognition Rather Than Recall</div>
         </div>
       </div>
-      <div class="rec-card">
-        <div class="rec-num">02</div>
-        <div class="rec-content">
-          <h4>Implement Visible Form Submission Feedback</h4>
-          <p>Add clear success/error toast notifications or confirmation screens upon form submission. Users should immediately know whether their appointment or inquiry was received. This resolves H1 and H9 violations and should improve Q9 ("felt confident") scores in future evaluations.</p>
-        </div>
-      </div>
-      <div class="rec-card">
-        <div class="rec-num">03</div>
-        <div class="rec-content">
-          <h4>Enrich the Doctor and Specialist Directory</h4>
-          <p>Expand each doctor profile to include specialization details, consultation schedules, and real-time availability. Respondents noted the current directory lacked actionable information. This directly addresses H2 violations and the most commonly cited open-ended feedback issue from the 40 respondents.</p>
-        </div>
-      </div>
-      <div class="rec-card">
-        <div class="rec-num">04</div>
-        <div class="rec-content">
-          <h4>Redesign Homepage with a Clear Visual Hierarchy</h4>
-          <p>Simplify the homepage by placing the primary call-to-action ("Book Appointment") above the fold and restructuring the service directory into scannable cards. This resolves H8 violations and will improve immediate usability for first-time visitors — directly targeting the learnability gap in Q10 (avg 2.60).</p>
-        </div>
-      </div>
-      <div class="rec-card">
-        <div class="rec-num">05</div>
-        <div class="rec-content">
-          <h4>Add Step-by-Step Onboarding and Help Section</h4>
-          <p>Introduce a guided walkthrough for first-time users and a persistent FAQ/help section. Respondents suggested a "step-by-step tutorial on how to use the website." This addresses H10 violations and the finding that 12 of 40 respondents were still neutral or agreed they needed technical support (Q4, avg 2.28).</p>
-        </div>
-      </div>
-      <div class="rec-card">
-        <div class="rec-num">06</div>
-        <div class="rec-content">
-          <h4>Enable Back Navigation in Multi-Step Flows</h4>
-          <p>Refactor the appointment booking flow into a clearly stepped form with progress indicators and a back button at each step. This resolves H3 and H5 violations and directly reduces the learnability gap experienced by the 7 respondents who found the system harder to navigate than expected.</p>
-        </div>
-      </div>
-      <div class="rec-card">
-        <div class="rec-num">07</div>
-        <div class="rec-content">
-          <h4>Expand Platform Coverage and Offline Accessibility</h4>
-          <p>Design the platform to be usable by people without smartphones or internet — through offline-accessible forms or SMS fallback options. This extends the system's reach beyond tech-savvy users and aligns with its public health mission of serving the entire Tigaon community, including those with limited gadget access.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <footer class="site-footer">
-    <span>© 2025 Group 6 — Partido State University · HCI2 Final Project</span>
-    <span><a href="reflections.html" style="color:var(--accent);text-decoration:none">Next: Reflections →</a></span>
-  </footer>
-</main>
+    <!-- DISCUSSION -->
+    <section class="section" id="discussion">
+      <div class="section-label">Discussion of Findings</div>
+      <h2 class="section-title">What the Data Tells Us</h2>
+      <p class="section-desc">An interpretation of usability test results in the context of HCI principles and real
+        respondent feedback.</p>
 
-<script>
-function toggleSidebar() {
-  document.getElementById('sidebar').classList.toggle('open');
-  document.getElementById('overlay').classList.toggle('open');
-}
+      <div class="two-col">
+        <div class="prose">
+          <p>
+            The average SUS score of <strong>73.1</strong> places the Tigaon – Primary Hospital and Clinic Website in
+            the <strong>"Good" usability range (Grade B)</strong>, exceeding the industry benchmark of 68. This
+            indicates the system is generally usable for its intended audience — 40 respondents predominantly composed
+            of 2nd-year education students aged 19–26 from Partido State University.
+          </p>
+          <p>
+            The highest-performing items were <strong>Q5</strong> ("Functions well integrated," avg 4.33),
+            <strong>Q3</strong> ("Easy to use," avg 4.18), and <strong>Q7</strong> ("Most people would learn quickly,"
+            avg 4.15). These confirm that the system's core features work coherently and are perceived as learnable —
+            genuine design strengths to preserve.
+          </p>
+          <p>
+            Negatively worded items also performed well: <strong>Q6</strong> ("Too much inconsistency," avg 2.00) and
+            <strong>Q8</strong> ("Cumbersome to use," avg 2.03) both had very low averages — meaning 28 and 27 of 40
+            respondents respectively <em>disagreed</em> that the system was inconsistent or cumbersome. This is a
+            significant positive finding.
+          </p>
+        </div>
+        <div class="prose">
+          <p>
+            Despite the positive SUS outcome, <strong>Q10</strong> ("Needed to learn a lot," avg 2.60) and
+            <strong>Q2</strong> ("Unnecessarily complex," avg 2.60) showed the widest spread in responses — 7 and 4
+            respondents respectively agreeing with these negative statements. This reveals a learnability gap for a
+            subset of users, particularly the 20 of 40 respondents who had no prior experience with similar systems.
+          </p>
+          <p>
+            Qualitative open-ended responses significantly enriched the quantitative findings. The most consistent theme
+            was <strong>the need for local language support</strong> (Bikol/Filipino) — raised independently by multiple
+            respondents and not captured by any SUS item. The second most common theme was the need for more detailed
+            specialist/doctor information and better booking confirmation feedback.
+          </p>
+          <p>
+            The evaluation reveals a system with a strong functional foundation — but with specific, highly actionable
+            gaps in feedback mechanisms, language accessibility, onboarding, and information depth. Addressing these
+            would realistically push the SUS score into the Excellent range (≥ 85).
+          </p>
+        </div>
+      </div>
+    </section>
 
-// ── REAL DATA FROM SurveyResult.xlsx (n=40) ──
-const freqData = [
-  { q:1,  type:'pos', label:'I think that I would like to use this system frequently.',               sd:1, d:0,  n:5,  a:24, sa:10 },
-  { q:2,  type:'neg', label:'I found the system unnecessarily complex.',                              sd:2, d:18, n:16, a:2,  sa:2  },
-  { q:3,  type:'pos', label:'I thought the system was easy to use.',                                  sd:0, d:0,  n:2,  a:29, sa:9  },
-  { q:4,  type:'neg', label:'I think that I would need the support of a technical person.',           sd:3, d:25, n:10, a:2,  sa:0  },
-  { q:5,  type:'pos', label:'I found the various functions in this system were well integrated.',     sd:0, d:0,  n:1,  a:25, sa:14 },
-  { q:6,  type:'neg', label:'I thought there was too much inconsistency in this system.',             sd:6, d:28, n:6,  a:0,  sa:0  },
-  { q:7,  type:'pos', label:'I would imagine that most people would learn to use this system quickly.',sd:0, d:0,  n:5,  a:24, sa:11 },
-  { q:8,  type:'neg', label:'I found the system very cumbersome to use.',                             sd:7, d:27, n:4,  a:2,  sa:0  },
-  { q:9,  type:'pos', label:'I felt very confident using the system.',                                sd:0, d:0,  n:6,  a:26, sa:8  },
-  { q:10, type:'neg', label:'I needed to learn a lot of things before I could get going.',            sd:3, d:20, n:10, a:4,  sa:3  },
-];
+    <!-- RECOMMENDATIONS -->
+    <section class="section" id="recommendations">
+      <div class="section-label">Recommendations</div>
+      <h2 class="section-title">Suggested Design Improvements</h2>
+      <p class="section-desc">
+        Based on SUS data from 40 respondents, open-ended qualitative feedback, and heuristic evaluation findings —
+        ranked by priority.
+      </p>
 
-const N = 40;
-freqData.forEach(r => {
-  r.mean   = (r.sd*1 + r.d*2 + r.n*3 + r.a*4 + r.sa*5) / N;
-  r.contrib = r.type === 'pos' ? r.mean - 1 : 5 - r.mean;
-});
-const susScore = (freqData.reduce((s,r)=>s+r.contrib,0) * 2.5).toFixed(1);
+      <div class="rec-list">
+        <div class="rec-card">
+          <div class="rec-num">01</div>
+          <div class="rec-content">
+            <h4>Add Bikol and Filipino Language Support</h4>
+            <p>Implement a language toggle (English / Filipino / Bikol) across all pages. Multiple respondents cited
+              this as the most critical improvement for the Tigaon community — particularly for elderly residents and
+              non-English speakers. This directly serves the platform's mission as a community health resource and
+              addresses H2 violations.</p>
+          </div>
+        </div>
+        <div class="rec-card">
+          <div class="rec-num">02</div>
+          <div class="rec-content">
+            <h4>Implement Visible Form Submission Feedback</h4>
+            <p>Add clear success/error toast notifications or confirmation screens upon form submission. Users should
+              immediately know whether their appointment or inquiry was received. This resolves H1 and H9 violations and
+              should improve Q9 ("felt confident") scores in future evaluations.</p>
+          </div>
+        </div>
+        <div class="rec-card">
+          <div class="rec-num">03</div>
+          <div class="rec-content">
+            <h4>Enrich the Doctor and Specialist Directory</h4>
+            <p>Expand each doctor profile to include specialization details, consultation schedules, and real-time
+              availability. Respondents noted the current directory lacked actionable information. This directly
+              addresses H2 violations and the most commonly cited open-ended feedback issue from the 40 respondents.</p>
+          </div>
+        </div>
+        <div class="rec-card">
+          <div class="rec-num">04</div>
+          <div class="rec-content">
+            <h4>Redesign Homepage with a Clear Visual Hierarchy</h4>
+            <p>Simplify the homepage by placing the primary call-to-action ("Book Appointment") above the fold and
+              restructuring the service directory into scannable cards. This resolves H8 violations and will improve
+              immediate usability for first-time visitors — directly targeting the learnability gap in Q10 (avg 2.60).
+            </p>
+          </div>
+        </div>
+        <div class="rec-card">
+          <div class="rec-num">05</div>
+          <div class="rec-content">
+            <h4>Add Step-by-Step Onboarding and Help Section</h4>
+            <p>Introduce a guided walkthrough for first-time users and a persistent FAQ/help section. Respondents
+              suggested a "step-by-step tutorial on how to use the website." This addresses H10 violations and the
+              finding that 12 of 40 respondents were still neutral or agreed they needed technical support (Q4, avg
+              2.28).</p>
+          </div>
+        </div>
+        <div class="rec-card">
+          <div class="rec-num">06</div>
+          <div class="rec-content">
+            <h4>Enable Back Navigation in Multi-Step Flows</h4>
+            <p>Refactor the appointment booking flow into a clearly stepped form with progress indicators and a back
+              button at each step. This resolves H3 and H5 violations and directly reduces the learnability gap
+              experienced by the 7 respondents who found the system harder to navigate than expected.</p>
+          </div>
+        </div>
+        <div class="rec-card">
+          <div class="rec-num">07</div>
+          <div class="rec-content">
+            <h4>Expand Platform Coverage and Offline Accessibility</h4>
+            <p>Design the platform to be usable by people without smartphones or internet — through offline-accessible
+              forms or SMS fallback options. This extends the system's reach beyond tech-savvy users and aligns with its
+              public health mission of serving the entire Tigaon community, including those with limited gadget access.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-// ── Frequency table ──
-const tbody = document.getElementById('freq-tbody');
-freqData.forEach(r => {
-  const col = r.type === 'pos' ? 'var(--accent)' : 'var(--accent-2)';
-  const fmt = v => v === 0 ? '<span style="color:var(--text-muted)">—</span>' : v;
-  tbody.innerHTML += `<tr>
-    <td>${r.q < 10 ? '0'+r.q : r.q}</td>
+    <footer class="site-footer">
+      <span>© 2025 Group 6 — Partido State University · HCI2 Final Project</span>
+      <span><a href="reflections.html" style="color:var(--accent);text-decoration:none">Next: Reflections →</a></span>
+    </footer>
+  </main>
+
+  <script>
+    function toggleSidebar() {
+      document.getElementById('sidebar').classList.toggle('open');
+      document.getElementById('overlay').classList.toggle('open');
+    }
+
+    // ── REAL DATA FROM SurveyResult.xlsx (n=40) ──
+    const freqData = [
+      { q: 1, type: 'pos', label: 'I think that I would like to use this system frequently.', sd: 1, d: 0, n: 5, a: 24, sa: 10 },
+      { q: 2, type: 'neg', label: 'I found the system unnecessarily complex.', sd: 2, d: 18, n: 16, a: 2, sa: 2 },
+      { q: 3, type: 'pos', label: 'I thought the system was easy to use.', sd: 0, d: 0, n: 2, a: 29, sa: 9 },
+      { q: 4, type: 'neg', label: 'I think that I would need the support of a technical person.', sd: 3, d: 25, n: 10, a: 2, sa: 0 },
+      { q: 5, type: 'pos', label: 'I found the various functions in this system were well integrated.', sd: 0, d: 0, n: 1, a: 25, sa: 14 },
+      { q: 6, type: 'neg', label: 'I thought there was too much inconsistency in this system.', sd: 6, d: 28, n: 6, a: 0, sa: 0 },
+      { q: 7, type: 'pos', label: 'I would imagine that most people would learn to use this system quickly.', sd: 0, d: 0, n: 5, a: 24, sa: 11 },
+      { q: 8, type: 'neg', label: 'I found the system very cumbersome to use.', sd: 7, d: 27, n: 4, a: 2, sa: 0 },
+      { q: 9, type: 'pos', label: 'I felt very confident using the system.', sd: 0, d: 0, n: 6, a: 26, sa: 8 },
+      { q: 10, type: 'neg', label: 'I needed to learn a lot of things before I could get going.', sd: 3, d: 20, n: 10, a: 4, sa: 3 },
+    ];
+
+    const N = 40;
+    freqData.forEach(r => {
+      r.mean = (r.sd * 1 + r.d * 2 + r.n * 3 + r.a * 4 + r.sa * 5) / N;
+      r.contrib = r.type === 'pos' ? r.mean - 1 : 5 - r.mean;
+    });
+    const susScore = (freqData.reduce((s, r) => s + r.contrib, 0) * 2.5).toFixed(1);
+
+    // ── Frequency table ──
+    const tbody = document.getElementById('freq-tbody');
+    freqData.forEach(r => {
+      const col = r.type === 'pos' ? 'var(--accent)' : 'var(--accent-2)';
+      const fmt = v => v === 0 ? '<span style="color:var(--text-muted)">—</span>' : v;
+      tbody.innerHTML += `<tr>
+    <td>${r.q < 10 ? '0' + r.q : r.q}</td>
     <td style="text-align:left;font-size:0.78rem">${r.label}</td>
     <td>${fmt(r.sd)}</td><td>${fmt(r.d)}</td><td>${fmt(r.n)}</td><td>${fmt(r.a)}</td><td>${fmt(r.sa)}</td>
     <td style="color:var(--text-muted)">40</td>
     <td style="color:${col};font-family:'JetBrains Mono',monospace;font-weight:500">${r.mean.toFixed(2)}</td>
     <td style="color:${col};font-family:'JetBrains Mono',monospace">${r.contrib.toFixed(3)}</td>
   </tr>`;
-});
-tbody.innerHTML += `<tr style="background:var(--surface-3)">
+    });
+    tbody.innerHTML += `<tr style="background:var(--surface-3)">
   <td colspan="9" style="text-align:right;padding-right:1rem;font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--text-muted)">
     Σ contributions × 2.5 = SUS Score →
   </td>
   <td style="color:var(--accent);font-family:'JetBrains Mono',monospace;font-weight:700;font-size:1rem">${susScore}</td>
 </tr>`;
 
-// ── Per-item average rating bars ──
-const itemBars = document.getElementById('item-bars');
-freqData.forEach(r => {
-  const pct = (r.mean / 5) * 100;
-  const col = r.type === 'pos'
-    ? 'linear-gradient(90deg, var(--accent), rgba(45,212,191,0.4))'
-    : 'linear-gradient(90deg, var(--accent-2), rgba(245,158,11,0.35))';
-  const valCol = r.type === 'pos' ? 'var(--accent)' : 'var(--accent-2)';
-  itemBars.innerHTML += `
+    // ── Per-item average rating bars ──
+    const itemBars = document.getElementById('item-bars');
+    freqData.forEach(r => {
+      const pct = (r.mean / 5) * 100;
+      const col = r.type === 'pos'
+        ? 'linear-gradient(90deg, var(--accent), rgba(45,212,191,0.4))'
+        : 'linear-gradient(90deg, var(--accent-2), rgba(245,158,11,0.35))';
+      const valCol = r.type === 'pos' ? 'var(--accent)' : 'var(--accent-2)';
+      itemBars.innerHTML += `
     <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.65rem">
       <span style="font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:var(--text-muted);width:22px;flex-shrink:0;text-align:right">Q${r.q}</span>
       <div style="flex:1;height:7px;background:var(--surface-3);border-radius:4px;overflow:hidden">
@@ -374,28 +520,29 @@ freqData.forEach(r => {
       </div>
       <span style="font-family:'JetBrains Mono',monospace;font-size:0.65rem;color:${valCol};width:34px;text-align:right;flex-shrink:0">${r.mean.toFixed(2)}</span>
     </div>`;
-});
+    });
 
-// ── Benchmark bars ──
-const bmarks = [
-  { label:'Poor',          pct:52,   val:'< 52',  color:'#f87171'          },
-  { label:'Acceptable',    pct:62,   val:'52–67', color:'#fb923c'          },
-  { label:'Industry Avg',  pct:68,   val:'68',    color:'var(--accent-2)'  },
-  { label:'▶ Your Score',  pct:73.1, val:'73.1',  color:'var(--accent)',bold:true },
-  { label:'Excellent',     pct:85,   val:'≥ 85',  color:'#a78bfa'          },
-];
-const bEl = document.getElementById('benchmarks');
-bmarks.forEach(b => {
-  bEl.innerHTML += `
+    // ── Benchmark bars ──
+    const bmarks = [
+      { label: 'Poor', pct: 52, val: '< 52', color: '#f87171' },
+      { label: 'Acceptable', pct: 62, val: '52–67', color: '#fb923c' },
+      { label: 'Industry Avg', pct: 68, val: '68', color: 'var(--accent-2)' },
+      { label: '▶ Your Score', pct: 73.1, val: '73.1', color: 'var(--accent)', bold: true },
+      { label: 'Excellent', pct: 85, val: '≥ 85', color: '#a78bfa' },
+    ];
+    const bEl = document.getElementById('benchmarks');
+    bmarks.forEach(b => {
+      bEl.innerHTML += `
     <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.55rem">
-      <span style="width:96px;font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:${b.bold?'var(--white)':'var(--text-muted)'};flex-shrink:0;${b.bold?'font-weight:700':''}">${b.label}</span>
+      <span style="width:96px;font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:${b.bold ? 'var(--white)' : 'var(--text-muted)'};flex-shrink:0;${b.bold ? 'font-weight:700' : ''}">${b.label}</span>
       <div style="flex:1;height:6px;background:var(--surface-3);border-radius:3px">
-        <div style="width:${b.pct}%;height:100%;border-radius:3px;background:${b.color};${b.bold?'box-shadow:0 0 8px var(--accent)':''}"></div>
+        <div style="width:${b.pct}%;height:100%;border-radius:3px;background:${b.color};${b.bold ? 'box-shadow:0 0 8px var(--accent)' : ''}"></div>
       </div>
       <span style="font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:${b.color};width:46px;text-align:right;flex-shrink:0">${b.val}</span>
     </div>`;
-});
-</script>
-<script src="animations.js"></script>
+    });
+  </script>
+  <script src="animations.js"></script>
 </body>
+
 </html>
