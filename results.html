@@ -240,8 +240,8 @@
       </div>
       <div class="document-card" style="margin-top:1.5rem">
         <h3><span class="accent-bar"></span>Heuristic Evaluation Workbook</h3>
-        <p style="margin:0">Each of the 4 group members completed an individual heuristic evaluation workbook. 📎 <a
-            href="#" style="color:var(--accent);text-decoration:none">Attach completed PDF workbook here</a></p>
+        <p style="margin:0">Each of the 4 group members completed an individual heuristic evaluation workbook. 📎
+          href="#" style="color:var(--accent);text-decoration:none">Attach completed PDF workbook here</a></p>
       </div>
     </section>
 
@@ -277,41 +277,16 @@
         </div>
 
         <div class="issue-card">
-
-
-          <div class="issue-card">
-            <div class="issue-header">
-              <h4>Insufficient Doctor/Specialist Directory Detail</h4><span
-                class="severity severity-medium">Medium</span>
-            </div>
-            <p>Respondents noted that the specialist directory lacked availability information and details on what each
-              doctor does — making it feel unhelpful. This reflects a H2 violation where the system doesn't match
-              real-world hospital directory expectations.</p>
-            <div class="heuristic-tag">Violates H2: Match Between System and Real World · H6: Recognition Rather Than
-              Recall</div>
+          <div class="issue-header">
+            <h4>Insufficient Doctor/Specialist Directory Detail</h4><span class="severity severity-medium">Medium</span>
           </div>
-
-          <div class="issue-card">
-            <div class="issue-header">
-              <h4>No Back Navigation on Multi-Step Flows</h4><span class="severity severity-medium">Medium</span>
-            </div>
-            <p>During appointment scheduling, users cannot edit previous steps without restarting. Q10 ("Needed to learn
-              a
-              lot before getting going") averaged 2.60, with 7 respondents selecting Neutral or Agree — signaling a
-              learnability barrier for a subset of users without prior experience.</p>
-            <div class="heuristic-tag">Violates H3: User Control and Freedom · H5: Error Prevention</div>
-          </div>
-
-          <div class="issue-card">
-            <div class="issue-header">
-              <h4>Missing Onboarding and Help Documentation</h4><span class="severity severity-low">Low</span>
-            </div>
-            <p>Respondents suggested a step-by-step tutorial for new users. This aligns with H10 violations and Q4 (avg
-              2.28) — while most respondents felt independent, 12 out of 40 were neutral or agreed that they needed
-              technical support to use the system.</p>
-            <div class="heuristic-tag">Violates H10: Help and Documentation · H6: Recognition Rather Than Recall</div>
-          </div>
+          <p>Respondents noted that the specialist directory lacked availability information and details on what each
+            doctor does — making it feel unhelpful. This reflects a H2 violation where the system doesn't match
+            real-world hospital directory expectations.</p>
+          <div class="heuristic-tag">Violates H2: Match Between System and Real World · H6: Recognition Rather Than
+            Recall</div>
         </div>
+      </div>
     </section>
 
     <!-- DISCUSSION -->
@@ -350,15 +325,13 @@
             subset of users, particularly the 20 of 40 respondents who had no prior experience with similar systems.
           </p>
           <p>
-            Qualitative open-ended responses significantly enriched the quantitative findings. The most consistent theme
-            was <strong>the need for local language support</strong> (Bikol/Filipino) — raised independently by multiple
-            respondents and not captured by any SUS item. The second most common theme was the need for more detailed
-            specialist/doctor information and better booking confirmation feedback.
+            Qualitative open-ended responses significantly enriched the quantitative findings. The most common theme was
+            the need for more detailed specialist/doctor information and better booking confirmation feedback.
           </p>
           <p>
             The evaluation reveals a system with a strong functional foundation — but with specific, highly actionable
-            gaps in feedback mechanisms, language accessibility, onboarding, and information depth. Addressing these
-            would realistically push the SUS score into the Excellent range (≥ 85).
+            gaps in feedback mechanisms, onboarding, and information depth. Addressing these would realistically push
+            the SUS score into the Excellent range (≥ 85).
           </p>
         </div>
       </div>
@@ -372,35 +345,36 @@
         Based on SUS data from 40 respondents, open-ended qualitative feedback, and heuristic evaluation findings —
         ranked by priority.
       </p>
-      </div>
-      <div class="rec-card">
-        <div class="rec-num">01</div>
-        <div class="rec-content">
-          <h4>Implement Visible Form Submission Feedback</h4>
-          <p>Add clear success/error toast notifications or confirmation screens upon form submission. Users should
-            immediately know whether their appointment or inquiry was received. This resolves H1 and H9 violations and
-            should improve Q9 ("felt confident") scores in future evaluations.</p>
+
+      <div class="rec-list">
+        <div class="rec-card">
+          <div class="rec-num">01</div>
+          <div class="rec-content">
+            <h4>Implement Visible Form Submission Feedback</h4>
+            <p>Add clear success/error toast notifications or confirmation screens upon form submission. Users should
+              immediately know whether their appointment or inquiry was received. This resolves H1 and H9 violations and
+              should improve Q9 ("felt confident") scores in future evaluations.</p>
+          </div>
         </div>
-      </div>
-      <div class="rec-card">
-        <div class="rec-num">02</div>
-        <div class="rec-content">
-          <h4>Enrich the Doctor and Specialist Directory</h4>
-          <p>Expand each doctor profile to include specialization details, consultation schedules, and real-time
-            availability. Respondents noted the current directory lacked actionable information. This directly
-            addresses H2 violations and the most commonly cited open-ended feedback issue from the 40 respondents.</p>
+        <div class="rec-card">
+          <div class="rec-num">02</div>
+          <div class="rec-content">
+            <h4>Enrich the Doctor and Specialist Directory</h4>
+            <p>Expand each doctor profile to include specialization details, consultation schedules, and real-time
+              availability. Respondents noted the current directory lacked actionable information. This directly
+              addresses H2 violations and the most commonly cited open-ended feedback issue from the 40 respondents.</p>
+          </div>
         </div>
-      </div>
-      <div class="rec-card">
-        <div class="rec-num">03</div>
-        <div class="rec-content">
-          <h4>Redesign Homepage with a Clear Visual Hierarchy</h4>
-          <p>Simplify the homepage by placing the primary call-to-action ("Book Appointment") above the fold and
-            restructuring the service directory into scannable cards. This resolves H8 violations and will improve
-            immediate usability for first-time visitors — directly targeting the learnability gap in Q10 (avg 2.60).
-          </p>
+        <div class="rec-card">
+          <div class="rec-num">03</div>
+          <div class="rec-content">
+            <h4>Redesign Homepage with a Clear Visual Hierarchy</h4>
+            <p>Simplify the homepage by placing the primary call-to-action ("Book Appointment") above the fold and
+              restructuring the service directory into scannable cards. This resolves H8 violations and will improve
+              immediate usability for first-time visitors — directly targeting the learnability gap in Q10 (avg 2.60).
+            </p>
+          </div>
         </div>
-      </div>
     </section>
 
     <footer class="site-footer">
